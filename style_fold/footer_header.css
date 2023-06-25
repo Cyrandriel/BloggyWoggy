@@ -1,7 +1,10 @@
 /* header */
-
 header{
     padding: 1em 1em 1em 1em;
+}
+
+*, p,h1, h2,h3,h4, footer{
+    font-family: 'Ysabeau Office', sans-serif;
 }
 
 .header_image{
@@ -13,7 +16,8 @@ header{
 h1{
     font-size: 2em;
     padding-left: 0.5em;
-    padding-top: 0.5em;
+    padding-top: 1em;
+    font-weight: 800;
 }
 @media screen and (min-width: 800px){
     .slogan{
