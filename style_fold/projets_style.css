@@ -1,0 +1,22 @@
+h2{
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.pad_bloc{
+    padding: 1em;
+}
+.alt1{
+    background-color: rgb(190, 190, 190);
+}
+
+.alt2{
+    background-color: rgb(103, 103, 103);
+}
+.image_projet{
+    width: 12em;
+    padding: 1em 0.5em 1em 0.5em;
+}
+.liste_images{
+    text-align: center;
+}
