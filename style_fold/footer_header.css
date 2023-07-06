@@ -19,7 +19,7 @@ h4{
 }
 
 /* header */
-header{
+header, footer{
     padding: 1em 1em 1em 1em;
     color: whitesmoke;
 }
@@ -75,7 +75,10 @@ body, .sous_bloc{
 
 footer{
     margin-top: 1em;
-    padding: 1em 1em 1em 1em;
-    font-size: 1.2em;
+    font-size: 2emem;
     text-align: center;
+}
+.reseau{
+    width: 2em;
+    padding: 1em 0.5em 1em 0;
 }

@@ -20,3 +20,8 @@ h2{
 .liste_images{
     text-align: center;
 }
+
+.home{
+    width: 3em;
+    padding: 1em 1em 0 1em;
+}

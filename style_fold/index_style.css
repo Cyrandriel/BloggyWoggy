@@ -38,7 +38,6 @@
     
     .image{
         height: 7em;
-        margin: auto;
     }
     .item1{
         grid-column-start: 1;
@@ -59,9 +58,13 @@
     
     .image{
         height: 5em;
-        margin: auto;
     }
     .sous_bloc{
         margin: 1em 0.5em 0.5em 0.5em;
     }
+}
+
+.icon{
+    height: 1.5em;
+    border-radius: 10px;
 }
