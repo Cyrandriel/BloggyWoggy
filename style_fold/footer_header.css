@@ -1,6 +1,7 @@
 *, p,h1, h2,h3,h4, footer{
     font-family: 'Ysabeau Office', sans-serif;
-    font-size: 1.2em;
+    font-size: 1.4em;
+    line-height: 1.3em;
 }
 span{
     text-decoration: underline;
@@ -8,14 +9,7 @@ span{
 }
 h2{
     font-size: 2.5em;
-}
-
-h3{
-    font-size: 2em;
-}
-
-h4{
-    font-size: 1.5em;
+    padding: 0.3em;
 }
 
 .zoomIn{
@@ -40,6 +34,7 @@ h1{
     padding-top: 1em;
     font-weight: 800;
 }
+
 @media screen and (min-width: 800px){
     .slogan{
         text-align: right;
@@ -69,17 +64,16 @@ h1{
     }
 }
 
-.bloc2{
-    background-color: rgb(55, 55, 55);
+
+body{
+    background-image: url(../images/back2.jpg);
 }
-body, .sous_bloc{
-    background-color: rgb(125, 125, 125);
-}
+
 /* Footer */
 
 footer{
     margin-top: 1em;
-    font-size: 2emem;
+    font-size: 1em;
     text-align: center;
 }
 .reseau{
