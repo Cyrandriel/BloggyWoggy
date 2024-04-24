@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link href="./style_fold/reset.css" rel="stylesheet">
-        <link href="./style_fold/footer_header.css" rel="stylesheet">
-        <link href="./style_fold/index_style.css" rel="stylesheet">
-        
-        <title>BloggyWoggy</title>
-        <link rel="icon" href="./images/All_Praise_Catto.png" />
+    <link href="./style_fold/reset.css" rel="stylesheet">
+    <link href="./style_fold/footer_header.css" rel="stylesheet">
+    <link href="./style_fold/index_style.css" rel="stylesheet">
+    
+    <title>BloggyWoggy</title>
+    <link rel="icon" href="./images/All_Praise_Catto.png" />
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Ysabeau+Office&display=swap" rel="stylesheet">
-    </head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+Office&display=swap" rel="stylesheet">
+</head>
 
+<body>
     <header class="bloc general_bloc">
-        <div class="web_identity">
+        <div class="web_identity"></div>
             <a href="./index.html"><img src="./images/thinking_cat.jpg" alt="thinking cat" class="header_image"></a>
             <h1>Bloggy Woggy</h1>
         </div>
@@ -25,82 +26,70 @@
             <p class="slogan">Le blog qui Woggy !</p>
             <p class="sous_slogan">(Non ça ne veut rien dire)</p>
         </div>
-        
     </header>
 
-    <nav>
+    <div class="casier">
+        <h2>Présentation</h2>
+        <div class="presentation">
+            <img src="./images/character.png" alt="mon image" class="photo">
+            <p class="">
+                Mes salutations, bienvenue sur ce site répertoriant quelques-uns de mes projets.<br>
+                J'apprécie particulièrement le monde de la programmation. J'ai commencé à apprendre les bases en autodidacte de quelques langages.<br>
+                
+                <br>
+                Logiciels principaux : <br> <br>
+                <img src="./images/logiciel_png/figma.png" alt="logo figma" class="icon">
+                <img src="./images/logiciel_png/gimp.png" alt="logo gimp" class="icon">
+                <img src="./images/logiciel_png/vscode.png" alt="logo vs code" class="icon">
+                <img src="./images/logiciel_png/openshot.png" alt="logo openshot" class="icon">
+                <br> <br>
+                Langages principaux : <br> <br>
+                <img src="./images/langages/java.png" alt="java" class="icon" title="Java">
+                <img src="./images/langages/JS.png" alt="javascript" class="icon" title="JavaScript">
+                <img src="./images/langages/Python.png" alt="python" class="icon" title="Python">
+            </p>
+        </div>
+    </div>
 
-    </nav>
-    <body>
-        <div class="casier">
-            <h2>Présentation</h2>
-            <div class="presentation">
-                <img src="./images/character.png" alt="mon image" class="photo">
-                <p class="">
-                    Mes salutations, bienvenue sur ce site répertoriant quelque uns de mes projets.<br>
-                    J'apprécie particulièrement le monde de la programmation. J'ai commencé à apprendre les bases en autodidacte de quelques langages.<br>
-                    
-                    <br>
-                    Logiciels principaux : <br> <br>
-                    <img src="./images/logiciel_png/figma.png" alt="logo figma" class="icon">
-                    <img src="./images/logiciel_png/gimp.png" alt="logo gimp" class="icon">
-                    <img src="./images/logiciel_png/vscode.png" alt="logo vs code" class="icon">
-                    <img src="./images/logiciel_png/openshot.png" alt="logo openshot" class="icon">
-                    <br> <br>
-                    Langages principaux : <br> <br>
-                    <img src="./images/langages/java.png" alt="java" class="icon" title="Java">
-                    <img src="./images/langages/JS.png" alt="javascript" class="icon" title="JavaScript">
-                    <img src="./images/langages/Python.png" alt="python" class="icon" title="Python">
-                    
-                </p>
-            </div>
+    <div class="casier">
+        <h2>Les projets</h2>
+
+        <div class="casier_projet">
+            <h3>Keyzy Train</h3>
+            
+            <img src="./images/keyzyTrain.jpg" alt="Keyzy train" class="image_projet">
+            
+            <p><span>Le projet</span> : L'idée de ce projet m'est survenue lors de mon service civique en remarquant que beaucoup n'arrivaient pas à utiliser la souris et le clavier malgré les efforts pour certains. Je me suis donc dit qu'un mini-jeu pour s'entraîner serait l'idéal.</p>
+            <p><span>Résumé</span> : Le but est de cliquer sur des bulles</p>
+            <p><span>Lien du fichier</span> : 
+                <a href="https://cyrandriel.github.io/KeyzyTrain/" target="_blank">lien</a>
+            </p>
         </div>
 
-        <div class="casier">
-            <h2>Les projets</h2>
+        <div class="casier_projet"></div>
+            <h3>La quête du donjon</h3>
+            
+            <img src="./images/LaQuete2.JPG" alt="jeu la quete" class="image_projet">
+            
+            <p><span>Le projet</span> : Projet réalisé pour une épreuve de fin de second semestre en licence. Le but était de créer un jeu textuel en Java (jouable sur terminal). Nous étions limités à ce que l'on a vu en cours.</p>
+            <p><span>Résumé</span> : Dans un donjon, le joueur se déplace horizontalement et verticalement sur une carte. Chaque tour, un monstre apparaît et l'on doit piocher au moins autant de gemmes de l'élément désiré que le niveau de l'ennemi.</p>
+            <p><span>Lien du fichier</span> : 
+                <a href="https://github.com/Cyrandriel/LaQueteDuDonjon" target="_blank">lien</a>
+            </p><br>
 
+        <div class="casier_projet">
+            <h3>La quête Web</h3>
+            
+            <img src="./images/quete_web2.JPG" alt="jeu la quete" class="image_projet">
 
-            <div class="casier_projet">
-                <h3>Keyzy Train</h3>
-                
-                <img src="./images/keyzyTrain.jpg" alt="Keyzy train" class="image_projet">
-                
-                <p><span>Le projet</span> : L'idée de ce projet m'est survenu lors de mon service civique en remarquant que beaucoup n'arrivaient pas à utiliser la souris et le clavier malgré les efforts pour certain. Je me suis donc dis qu'un mini-jeu pour entrainer serai l'idéal.</p>
-                <p><span>Résumé</span> : Le but est de cliquer sur des bulles</p>
-                <p><span>Lien du fichier</span> : 
-                    <a href="https://cyrandriel.github.io/KeyzyTrain/" target="_blank">lien</a>
-                    </a>
-                </p>
-            </div>
-
-
-            <div class="casier_projet">
-                <h3>La quête du donjon</h3>
-                
-                <img src="./images/LaQuete2.JPG" alt="jeu la quete" class="image_projet">
-                
-                <p><span>Le projet</span> : Projet réalisé pour une épreuve de fin de second semestre en licence. Le but était de créer un jeu textuel en java (Jouable sur terminale). Nous étions limité à ce que l'on a vus en cours.</p>
-                <p><span>Résumé</span> : Dans un donjons, le joueur se déplace horizontalement et verticalement sur une carte. Chaque tour un monstre apparait et l'on doit piocher au moins autant de gemmes de l'élément désiré que le niveau de l'ennemi. </p>
-                <p><span>Lien du fichier</span> : 
-                    <a href="https://github.com/Cyrandriel/LaQueteDuDonjon" target="_blank">lien</a>
-                    </a>
-                </p>
-            </div>
-
-            <div class="casier_projet">
-                <h3>La quête Web</h3>
-                
-                <img src="./images/quete_web2.JPG" alt="jeu la quete" class="image_projet">
-
-                <p><span>Le projet</span> : Un jeu inspiré de la quête du donjon fait précédement en java. Cette fois-ci très simplifier puisque c'est le premier projet en web contenant du JavaScript. Après avoir acquis de l'expérience dans le web, je l'améliorerai pour avoir un rendu plus rapprocher de la version java, et en ajoutant plus de visuels.</p>
-                <p><span>Résumé</span> : Dans un donjon, le joueur se déplace horizontalement et verticalement sur une carte. Chaque tour un monstre apparait et l'on doit tirer un dé et obtenir un nombre égal ou supérieur à celui du niveau du monstre.</p>
-                <p><span>Lien du fichier</span> :
-                    <a href="https://cyrandriel.github.io/LaQueteWeb/" target="_blank">lien</a>
-                </p>
-            </div>
-
+            <p><span>Le projet</span> : Un jeu inspiré de la quête du donjon fait précédemment en Java. Cette fois-ci très simplifié puisque c'est le premier projet en web contenant du JavaScript. Après avoir acquis de l'expérience dans le web, je l'améliorerai pour avoir un rendu plus proche de la version Java, et en ajoutant plus de visuels.</p>
+            <p><span>Résumé</span> : Dans un donjon, le joueur se déplace horizontalement et verticalement sur une carte. Chaque tour, un monstre apparaît et l'on doit tirer un dé et obtenir un nombre égal ou supérieur à celui du niveau du monstre.</p>
+            <p><span>Lien du fichier</span> :
+                <a href="https://cyrandriel.github.io/LaQueteWeb/" target="_blank">lien</a>
+            </p>
         </div>
-    </body>
+        </div>
+    </div>
 
     <footer class="bloc">
         <p><span>Réseaux</span></p>
@@ -108,4 +97,11 @@
         <a href="https://github.com/Cyrandriel" target="_blank"><img src="./images/git.png" alt="github" class="reseau"></a>
     </footer>
 
+    <script>
+        // Add JavaScript code here to dynamically update the content
+        // For example, to set the text content of the <h1> element:
+        // document.querySelector('h1').textContent = 'Hello!';
+
+    </script>
+</body>
 </html>

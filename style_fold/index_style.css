@@ -1,51 +1,51 @@
-.bloc{
+.bloc {
     background-color: rgb(62, 40, 0);
 }
-.casier{
+
+.casier {
     margin: 1em;
     padding: 0.5em;
-    border-top:3px dashed;
-    border-bottom: 3px dashed;
+    border: 3px dashed;
     border-radius: 20px;
     background-color: rgba(255, 253, 240, 0.46);
 }
 
-@media screen and (min-width: 800px){
-    .photo{
+@media screen and (min-width: 800px) {
+    .photo {
         height: 10em;
         margin: 1em;
         border-radius: 5%;
     }
 }
 
-@media screen and (max-width: 800px){
-    .photo{
+@media screen and (max-width: 800px) {
+    .photo {
         display: none;
     }
 }
-.presentation{
+
+.presentation {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.icon{
+.icon {
     height: 1.5em;
     border-radius: 10px;
 }
 
-
-
-.casier_projet{
+.casier_projet {
     border-top: 3px dashed black;
     font-size: 1em;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding: 1em;
 }
 
-h3{
+h3 {
     font-size: 1.7em;
 }
 
-.image_projet{
+.image_projet {
     height: 10em;
     margin: 1em;
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.47);
